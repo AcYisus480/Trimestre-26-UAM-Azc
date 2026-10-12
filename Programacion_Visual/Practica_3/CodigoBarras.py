@@ -20,7 +20,7 @@ def verificar_integridad(codigo, lista):
         codigo = codigo.zfill(13)
         
     elif len(codigo)!=8 and len(codigo)!=13:
-        return "Error", False, None
+        return "Error, intenta de nuevo", None
     
     for num in codigo:
         lista.append(int(num))
@@ -41,7 +41,7 @@ def verificar_integridad(codigo, lista):
     
     if resultado % 10 == 0:
         return "El código de barras es valido", a
-    return "El código de barras NO es valido", a
+    return "El código de barras NO es valido", -1
     
 
 def identificar_pais(codigo, codigos_paises):
