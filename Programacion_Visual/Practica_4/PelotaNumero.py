@@ -10,9 +10,13 @@ class PelotaNumero(Pelota):
         self.__numero = random.randint(1, 4)
             
     def pintarPelota(self):
-        colores = ["amarillo", "morado", "rosa"]
+        colores = ["Amarillo", "Morado", "Rosa"]
         self.__color = random.choice(colores)
 
     def __str__(self):
         num = str(self.__numero)
         return f"{super().__str__()}\nNúmero: {num}"
+
+    @property
+    def numero(self):
+        return self.__numero

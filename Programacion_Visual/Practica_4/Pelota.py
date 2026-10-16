@@ -20,3 +20,14 @@ class Pelota(ABC):
         color = self.__color
         return f"Participante: {nombre}\nID: {id_usuario}\nColor: {color}"
     
+    @property
+    def color(self):
+        return self.__color
+
+    @property
+    def identificador(self):
+        return self.__identificador
+
+    @property
+    def participante(self):
+        return self.__participante
