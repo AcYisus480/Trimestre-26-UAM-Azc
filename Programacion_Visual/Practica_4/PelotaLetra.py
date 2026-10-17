@@ -1,4 +1,5 @@
 from Pelota import Pelota
+import random
 
 class PelotaLetra(Pelota):
     def __init__(self, identificador, participante):
@@ -7,11 +8,11 @@ class PelotaLetra(Pelota):
     
     def generarValor(self):
         letras = ["A", "B", "C", "D"]
-        self.__color = random.choice(colores)
+        self.__letra = random.choice(letras)
     
     def pintarPelota(self):
         colores = ["Azul", "Verde", "Rojo"]
-        self.__color = random.choice(colores)
+        self.color = random.choice(colores)
     
     def __str__(self):
         letra = str(self.__letra)

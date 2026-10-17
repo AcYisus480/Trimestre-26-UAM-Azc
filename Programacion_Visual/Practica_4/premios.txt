@@ -1,0 +1,20 @@
+Identificador: 10	Participante: Daniel Hernández
+    Unidad: Azcapotzalco
+    Categoria: Papelería
+    Cantidad: $2000
+    Vigencia 3 meses
+Identificador: 14	Participante: Patricia García
+    Unidad: Azcapotzalco
+    Categoria: Papelería
+    Cantidad: $1000
+    Vigencia 4 meses
+Identificador: 20	Participante: Cristina Rodríguez
+    Unidad: Iztapalapa
+    Categoria: Libros físicos
+    Cantidad: $1000
+    Vigencia 3 meses
+Identificador: 34	Participante: Agustin Rivera
+    Unidad: Iztapalapa
+    Categoria: Libros físicos
+    Cantidad: $1000
+    Vigencia 2 meses

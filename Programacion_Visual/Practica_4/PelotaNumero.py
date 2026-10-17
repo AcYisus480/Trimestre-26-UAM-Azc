@@ -11,7 +11,7 @@ class PelotaNumero(Pelota):
             
     def pintarPelota(self):
         colores = ["Amarillo", "Morado", "Rosa"]
-        self.__color = random.choice(colores)
+        self.color = random.choice(colores)
 
     def __str__(self):
         num = str(self.__numero)

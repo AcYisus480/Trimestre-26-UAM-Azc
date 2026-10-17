@@ -14,12 +14,6 @@ class Pelota(ABC):
     def generarValor(self):
         pass
     
-    def __str__(self):
-        nombre = self.__participante
-        id_usuario = str(self.__identificador)
-        color = self.__color
-        return f"Participante: {nombre}\nID: {id_usuario}\nColor: {color}"
-    
     @property
     def color(self):
         return self.__color
@@ -31,3 +25,14 @@ class Pelota(ABC):
     @property
     def participante(self):
         return self.__participante
+    
+    @color.setter
+    def color(self, nuevo_color):
+        self.__color = nuevo_color
+    
+    def __str__(self):
+        nombre = self.__participante
+        id_usuario = str(self.__identificador)
+        color = self.__color
+        return f"ID: {id_usuario}\t\tParticipante: {nombre}\nColor: {color}"
+    
